@@ -11,7 +11,7 @@ plugin = {
         features = "src/test/resources/features",
         glue = "com/vytrack/step_definition",
         dryRun =false,
-        tags = "@login",
+        tags = "@parametrized_test @smoke_test",
         publish = true
 )
 public class CucumberRunner {
